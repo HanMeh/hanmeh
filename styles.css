@@ -6,121 +6,28 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: 1b1b1b;
 
 }
 header {
     background-color: 1b1b1b;
-    color: rgb(231, 15, 15);
+    color: rgb(6, 6, 6);
     padding: 10px 0;
-    
-    /* position: fixed;
-    top: 0;
-    width: 25%;
-    padding: 30px 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center; */
 }
 h3 {
     padding: 10px;
 }
-img {
+#svgtemp {
     display: block;
-    width: 100%;
+    width: 50%;
     height: auto;
-}
-div#logoQ img {
-    width: 135px;
+    padding-left: 10%;
+    padding-top: 25%;
 }
 div#topnav li {
     display: block;
     margin-left: 70px;
-}
-footer {
-    padding-top: 120px;
-}
-.mono {
-    font-family: "architekt";
-}
-footer a {
-    transition: color 0.8s ease;
-}
-header#menu {
-    height: 60px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 10;
-    height: 80px;
-}
-.ancora:before, #menu-c li a:before {content: ''; position: absolute; bottom: -4px; height: 1px; background: #dcdccd; width: 0; transition: width 0.6s ease;}
-.attivo.ancora:before, .ancora:hover:before, #menu-c li a:hover:before {
-    width: 100%;
-}
-.flex {display: flex; justify-content: space-between; align-items: center;}
-#smooth-container {
-    opacity: 0;
-    transition: opacity 1s ease;
-}
-#smooth-container.show {opacity: 1; !important;}
-.w100 {width: 100%;}
-.logo-container {
-    height: calc(100vh - 240px);
-    display: flex;
-    align-items: flex-end;
-    padding: 120px;
-}
-div#logo img {
-    width: 135px;
-}
-div#menu-c li {
-    display: inline-block;
-    margin-left: 70px;
-}
-div#menu-c li:first-of-type {
-    margin-left: 0;
-}
-.center-title {
-    position: absolute;
-    top: 50%;
-    max-width: 1070px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-}
-.logo-in-page {
-    width: 100%;
-}
-.canvas-imgs {
-    display: block;
-    object-fit: contain;
-    width: 80%;
-    height: 80%;
-    margin: 0 auto;
-    margin-bottom: -80%;
-}
-.panel {
-    width: 100%;
-    height: 100%;
-    position: relative;
-    box-sizing: border-box;
-    display: flex;
-    align-items: center;
-    text-align: center;
-}
-.panel {
-    height: 100vh;    
-}
-.plus {
-    z-index: 10;
-    position: absolute;
-    top: 160px;
-    left: 120px;
-    width: 100px;
 }
 .wrap {
     max-width: auto;
@@ -129,17 +36,12 @@ div#menu-c li:first-of-type {
     overflow: hidden;
     /* display: inline-block; */
 }
-#logoQ {
-    float: left;
-    /* height: 50px; */
-    /* width: 50px; */
-    
-}
+
 #logoQanvaz {
     float: left;
 
 }
-nav {
+/* nav {
     float: right;
 }
 .topnav {
@@ -160,29 +62,18 @@ nav {
     transition: background-color 0.3s;
 }
 .topnav li a:hover {
-    background-color: aqua;
+    background-color: aqua; */
 }
-/* .burgernav {
-    display: none;
-    cursor: pointer;
-}
-.burgernav div {
-    width: 25px;
-    height: 3px;
-    background-color: blue ;
-    margin: 5px;
-    transition: transform 0.3s, background-color 0.3s ;
-} */
 .content {
     padding: 50px 0;
     text-align: left;
 }
-.page {}
-@font-face {
+
+/* @font-face {
     font-family: "architekt";
     src: url("../fonts/architekt.woff");
-}
-@keyframes loading {
+} */
+/* @keyframes loading {
     0% {
         background-position: 0 0;
     }
@@ -208,85 +99,4 @@ nav {
     to {
         opacity: 1;
     }
-}
-}
-/* @media screen and (max-width: 768px) {
-    .topnav {
-        display: none;
-        text-align: center;
-        width: 100%;
-        position: absolute;
-        background-color: blue ;
-        top: 60px;
-        left: 0;
-        z-index: 1;
-    }
-    .topnav.active {
-        display: block;
-    }
-    .topnav li {
-        display: block;
-        margin: 10px 0;
-    }
-    .burgernav {
-        display: block;
-        float: right;
-        margin-top: 15px;
-    }
-    .burgernav.active .first {
-        transform: rotate(-45deg) translate(-5px, 6px);
-    }
-    .burgernav.active .second {
-        opacity: 0;
-    }
-    .burgernav.active .third {
-        transform: rotate(45deg), translate(-5px, -6px);
-    }
-} */
-/* body {
-    background-color: 1b1b1b;
-    margin: 0;
-    border: 0;
-    padding: 0;
-    
-    }
-div {
-    display: grid;
-    height: 
-}
-ul {
-    color:#dcdccd;
-}
-#land {
-    inset
-    
-}
-#topnav {
-    max-height: 16px;
-    height: 50px;
-    /* position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 0; */
-
-/* }
-/* #pgzero .topnav {
-    overflow: hidden; 
-}
-@font-face {
-    font-family: ;
-    src: url();
-}
-
-
-contemporary on desktop 41px to 65px|on mobile 34px-146px */ */
-
-/* .leftnav {
-    width: 200px;
-    background-color: ;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    overflow-y: auto;
 } */
